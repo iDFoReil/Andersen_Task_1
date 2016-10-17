@@ -1,35 +1,35 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <head><title>task</title>
 <link  rel="stylesheet" href="style.css">
-<meta charset='utf-8'>
+<meta charset='UTF-8'>
 </head>
 <body>
 <table width="100%">
 <tr>
 <td valign="top" width = "30%">
-<div id='items' onclick = 'add(event)'>
+<div id='items' >
 	<b>Items</b><br>
-	<p id='a'> A</p>
-	<p id='b'>B</p>
-	<p id='c'>C</p>
-</div><input id='crelemname' size='5' value='Element'></input>
-<button onclick = 'crElement()'>Create</button></td>
+	<p class='elements' id='a'>a</p>
+	<p class='elements' id='b'>b</p>
+	<p class='elements' id='c'>c</p>
+</div><input id='crelemname' size='5' value=''></input>
+<button >Create</button></td>
 
 <td valign="top" width = "30%">
 <div id = 'recepts'>
 	<b>Recepts</b><br>
-	<p id = 'ab'>A+B</p>
-	<p id ='bc'>B+C</p>
-	<p id='ac'>A+C</p>
+	<p class='elements' id='a+b'>a+b</p>
+	<p class='elements' id='b+c'>b+c</p>
+	<p class='elements' id='a+c'>a+c</p>
 </div>
 firstItem:<input id='firstItem' size ='5'></input><br>
 secondItem:<input id='secondItem' size='5'></input><br>
-<button onclick='addRecept()'>Create recept</button>
+<button>Create recept</button>
 </td>
 
 <td valign="top" width = "30%">
-<div id = 'dropzone' onclick = 'remove(event)'></div>
-<button onclick = 'checking()'>craft</button>
+<div id = 'dropzone'></div>
+<button>craft</button>
 </td>
 
 </tr>
