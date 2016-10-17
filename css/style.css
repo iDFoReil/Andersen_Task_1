@@ -1,0 +1,14 @@
+#dropzone{
+border:1px solid;
+height:200px;
+width: 100px;
+}
+.elements {
+	width: 40px;
+	border: 1px solid black;
+	border-radius: 4px;
+	margin: 5px;
+	padding: 3px;
+	cursor: pointer;
+	text-align: center;
+}
