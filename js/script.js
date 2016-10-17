@@ -67,8 +67,8 @@ function crafting(){
 		for(var i=0; i<recepts.length;i++){
 			if((pElements[0].id == recepts[i].ingredients[0] || pElements[0].id == recepts[i].ingredients[1]) && 
 				(pElements[1].id == recepts[i].ingredients[0] || pElements[1].id == recepts[i].ingredients[1])){
-				document.getElementById(recepts[i].name).style.backgroundColor = 'green';
-			document.getElementById(recepts[i].name).style.color = 'white';
+				document.getElementById(recepts[i].name).style.backgroundColor='green';
+				document.getElementById(recepts[i].name).style.color = 'white';
 				DropzoneObj.removeChild(document.getElementById(recepts[i].ingredients[0]));
 				DropzoneObj.removeChild(document.getElementById(recepts[i].ingredients[1]));
 			}
